@@ -1,2 +1,2 @@
 #!/bin/bash
-python run.py
+echo $PYCODE > run.py | python run.py
