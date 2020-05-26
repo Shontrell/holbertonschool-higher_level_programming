@@ -10,11 +10,14 @@ class Rectangle:
     Args:
         width: integer
         height: integer
-    Raises:
+    Raise:
         TypeError: width must be an integer
         TypeError: height must be an integer
         ValueError: width must be >= 0
         ValueError: height must be >= 0
+    Return:
+        area: (width * height)
+        perimeter: (width * 2) + (height * 2)
     """
     def __init__(self, width=0, height=0):
         self.width = width
@@ -50,4 +53,4 @@ class Rectangle:
     def perimeter(self):
         if self.width == 0 or self.height == 0:
             return (0)
-        return ((2 * self.width) + (2 * self.height))
+        return ((self.width * 2) + (self.height * 2))
