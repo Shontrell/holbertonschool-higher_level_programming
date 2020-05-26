@@ -9,7 +9,7 @@ class Rectangle:
     Args:
         width: integer
         height: integer
-    Raises:
+    Raise:
         TypeError: width must be an integer
         TypeError: height must be an integer
         ValueError: width must be >= 0
