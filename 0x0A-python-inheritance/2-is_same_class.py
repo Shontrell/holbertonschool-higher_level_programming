@@ -8,8 +8,8 @@ instance of the specified class
 def is_same_class(obj, a_class):
     """
     Args:
-        obj: object to verify
-        a_class: verify if this class is the class of obj
+        obj: object
+        a_class: class
     Return:
         True if the object is exactly an instance of the \
         specified class, otherwise False
