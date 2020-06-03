@@ -10,4 +10,4 @@ def read_lines(filename="", nb_lines=0):
                 print(line, end="")
         else:
             for y in range(nb_lines):
-                print(x.readline(),end="")
+                print(x.readline(), end="")
