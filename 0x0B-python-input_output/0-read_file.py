@@ -3,6 +3,10 @@
 
 
 def read_file(filename=""):
+    """
+    Args:
+        filename: name of file
+    """
     with open(filename) as x:
         for line in x:
             print(line, end="")
